@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
 import Home from "./Home";
+import "../components/Login.css";
 
 function Login() {
   const [emaillog, setEmaillog] = useState(" ");
