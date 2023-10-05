@@ -26,6 +26,16 @@ p{
 
 
 /* ==================================== */
+   body{
+    margin-bottom: 30px; 
+    width: 99vw; 
+    height: 90vh;
+    background-image:url('images/pexels-jéshoots-234527.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+   }
+
   .outer {
     display: flex;
     justify-content: center;
@@ -34,14 +44,13 @@ p{
     }
   
   .inner {
-    width: 450px;
+    width: 400px;
     margin: auto;
-    background: #ffffff;
+    /* background: #ffffff; */
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
     padding: 40px 55px 45px 55px;
     border-radius: 15px;
     transition: all .3s;
-    background-color: aquamarine;
   }
   
   .outer .form-control:focus {
@@ -59,6 +68,7 @@ p{
   
   label{
     font-weight: 600;
+    color: white
   }
   .forgot-password,
   .forgot-password{
