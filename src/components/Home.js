@@ -5,7 +5,7 @@ const Home = () => {
     <div className="py-5 text-center">
       <h1 style={{color:'red'}}>welcome to home</h1>
 
-     <p style={{color:'white'}}>created Regisered account and logged in Successfully!!!!!</p>
+     <p style={{color:'white'}}>created Registered account and logged in Successfully!!!!!</p>
     </div>
   );
   }
